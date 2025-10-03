@@ -7,10 +7,13 @@
     <title>Discord</title>
   </head>
   <body>
-    <!-- Header principale - contiene logo, navigazione e login -->
+    <!-- HEADER -->
+    <!-- Header principale con logo, navigazione e login -->
     <header class="bg-acqua pd-10">
       <div class="container-header">
+        <!-- Logo -->
         <p class="header-logo pd-10 br-3px-black bg-orange">Logo</p>
+        <!-- Navigazione principale -->
         <nav class="header-nav pd-10 br-3px-black bg-orange">
           <ul>
             <li><a href="#">Link</a></li>
@@ -20,42 +23,64 @@
             <li><a href="#">Link</a></li>
           </ul>
         </nav>
+        <!-- Pulsante login -->
         <p class="header-login pd-10 br-3px-black bg-orange">Login</p>
       </div>
     </header>
 
-    <!-- Contenuto principale della pagina -->
+    <!-- MAIN  -->
     <main>
+      <!-- Hero / sezione introduttiva -->
       <section class="bg-blue pd-10">
         <div class="header-main bg-violet mg-30-auto br-3px-black"></div>
       </section>
-      <!-- Sezione info -->
+      <!-- Sezione info con immagine e testo -->
       <section class="pd-10 bg-white">
         <div class="container-main mg-30-auto">
           <div class="info-section-img gb-light-blue br-3px-black"></div>
           <div class="info-section-text bg-pink br-3px-black"></div>
         </div>
       </section>
+      <!-- Sezione feature con testo e immagine -->
       <section class="pd-10 bg-gray">
         <div class="container-main mg-30-auto">
           <div class="feature-section-text br-3px-black gb-light-blue"></div>
           <div class="feature-section-img bg-pink br-3px-black"></div>
         </div>
       </section>
+      <!-- Seconda sezione info -->
       <section class="pd-10 bg-white">
         <div class="container-main mg-30-auto">
           <div class="info-section-img gb-light-blue br-3px-black"></div>
           <div class="info-section-text bg-pink br-3px-black"></div>
         </div>
       </section>
-      <section></section>
+      <!-- Sezione finale del main -->
+      <section class="pd-10 bg-gray">
+        <div class="main-footer mg-30-auto bg-green br-3px-black"></div>
+      </section>
     </main>
+    <!--  FOOTER  -->
 
-    <!--  La parte finale con info, link, ecc -->
-    <footer>
-      <div class="footer-top"></div>
+    <footer class="bg-black">
+      <!-- Parte superiore del footer: logo + 4 colonne -->
+      <div class="footer-top pd-10">
+        <div class="footer-img bg-violet br-3px-black"></div>
+        <div class="info-footer br-3px-black">
+          <!-- Colonne info/footer -->
+          <div class="footer-about bg-acqua br-4px-gray"></div>
+          <div class="footer-links bg-acqua br-4px-gray"></div>
+          <div class="footer-services bg-acqua br-4px-gray"></div>
+          <div class="footer-contact bg-acqua br-4px-gray"></div>
+        </div>
+      </div>
+      <!-- Divisore -->
       <div class="divider"></div>
-      <div class="footer-bottom"></div>
+      <!-- Parte inferiore del footer: logo + bottone -->
+      <div class="footer-bottom bg-acqua">
+        <p class="pd-10 br-3px-black bg-pink">Logo</p>
+        <button class="pd-10 br-3px-black bg-pink">Bottone</button>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,16 +1,11 @@
-/* RESET */
+/*  RESET BASE  */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/***************** DEBUG  *****************/
-body {
-  background-color: rgb(191, 10, 10);
-}
-
-/***************** UTILITIES *****************/
+/*  UTILITIES */
 /* Classi riutilizzabili per colori di sfondo */
 .bg-acqua {
   background-color: aqua;
@@ -29,7 +24,7 @@ body {
 }
 
 .bg-black {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.823);
 }
 .bg-white {
   background-color: white;
@@ -48,7 +43,7 @@ body {
 .bg-violet {
   background-color: violet;
 }
-/* Classi riutilizzabili per bordi */
+/* Bordi riutilizzabili */
 .br-3px-black {
   border: 3px dashed black;
 }
@@ -56,20 +51,20 @@ body {
 .br-4px-gray {
   border: 4px dashed gray;
 }
-/* Classe riutilizzabile per padding */
+/* Spaziatura riutilizzabile */
 .pd-10 {
   padding: 10px;
 }
 .mg-30-auto {
   margin: 30px auto;
 }
-/* Contenitore main */
+/* Contenitore principale generico */
 .container-main {
   max-width: 1020px;
   height: 400px;
   display: flex;
 }
-/***************** HEADER *****************/
+/* HEADER  */
 header {
   height: 80px;
 }
@@ -106,7 +101,7 @@ li a {
   text-align: right;
 }
 
-/* Contenuto  main header*/
+/* Contenuto principale header */
 .header-main {
   max-width: 800px;
   min-height: 400px;
@@ -119,11 +114,63 @@ li a {
 .info-section-text {
   flex-basis: 40%;
 }
-/* Sezione Principale */
+/* Sezione feature */
 .feature-section-text {
   flex-basis: 40%;
 }
 
 .feature-section-img {
   flex-basis: 60%;
+}
+/* Sezione finale del main */
+.main-footer {
+  max-width: 1020px;
+  min-height: 800px;
+}
+/* FOOTER */
+/* Parte superiore footer (logo + colonne) */
+.footer-top {
+  max-width: 1020px;
+  min-height: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-img {
+  flex-basis: 40%;
+}
+/* Colonne info footer */
+.info-footer {
+  flex-basis: 60%;
+  display: flex;
+}
+/* Colonne specifiche footer */
+.footer-about {
+  flex-basis: 25%;
+}
+
+.footer-links {
+  flex-basis: 25%;
+}
+
+.footer-services {
+  flex-basis: 25%;
+}
+
+.footer-contact {
+  flex-basis: 25%;
+}
+/* Divisore orizzontale footer */
+.divider {
+  border: 2px solid gray;
+  margin: 30px 0;
+}
+/* Parte inferiore footer  */
+.footer-bottom {
+  max-width: 1020px;
+  min-height: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
