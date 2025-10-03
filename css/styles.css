@@ -106,7 +106,7 @@ li a {
   text-align: right;
 }
 
-/* Contenuto principale main */
+/* Contenuto  main header*/
 .header-main {
   max-width: 800px;
   min-height: 400px;
@@ -118,4 +118,12 @@ li a {
 }
 .info-section-text {
   flex-basis: 40%;
+}
+/* Sezione Principale */
+.feature-section-text {
+  flex-basis: 40%;
+}
+
+.feature-section-img {
+  flex-basis: 60%;
 }
