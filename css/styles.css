@@ -4,3 +4,91 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/***************** DEBUG  *****************/
+body {
+  background-color: rgb(191, 10, 10);
+}
+
+/***************** UTILITIES *****************/
+/* Classi riutilizzabili per colori di sfondo */
+.bg-acqua {
+  background-color: aqua;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-black {
+  background-color: black;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-orange {
+  background-color: orange;
+}
+.gb-light-blue {
+  background-color: rgba(0, 68, 255, 0.644);
+}
+/* Classi riutilizzabili per bordi */
+.br-3px-black {
+  border: 3px dashed black;
+}
+
+.br-4px-gray {
+  border: 4px dashed gray;
+}
+/* Classe riutilizzabile per padding */
+.pd-10 {
+  padding: 10px;
+}
+.mg-10-auto {
+  margin: 10px auto;
+}
+
+/***************** HEADER *****************/
+header {
+  height: 80px;
+}
+/* Contenitore principale header con flexbox */
+.container-header {
+  height: 100%;
+  max-width: 1020px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Lista di navigazione in linea */
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+/* Stile link di navigazione */
+li a {
+  text-decoration: none;
+  color: black;
+}
+/* Spaziatura aree header */
+.header-logo {
+  flex-basis: 20%;
+}
+.header-nav {
+  flex-basis: 60%;
+}
+.header-login {
+  flex-basis: 20%;
+  text-align: right;
+}
