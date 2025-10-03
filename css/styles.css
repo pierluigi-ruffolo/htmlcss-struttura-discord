@@ -25,7 +25,7 @@ body {
 }
 
 .bg-blue {
-  background-color: blue;
+  background-color: rgb(21, 21, 113);
 }
 
 .bg-black {
@@ -40,6 +40,14 @@ body {
 .gb-light-blue {
   background-color: rgba(0, 68, 255, 0.644);
 }
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-violet {
+  background-color: violet;
+}
 /* Classi riutilizzabili per bordi */
 .br-3px-black {
   border: 3px dashed black;
@@ -52,10 +60,15 @@ body {
 .pd-10 {
   padding: 10px;
 }
-.mg-10-auto {
-  margin: 10px auto;
+.mg-30-auto {
+  margin: 30px auto;
 }
-
+/* Contenitore main */
+.container-main {
+  max-width: 1020px;
+  height: 400px;
+  display: flex;
+}
 /***************** HEADER *****************/
 header {
   height: 80px;
@@ -91,4 +104,18 @@ li a {
 .header-login {
   flex-basis: 20%;
   text-align: right;
+}
+
+/* Contenuto principale main */
+.header-main {
+  max-width: 800px;
+  min-height: 400px;
+}
+
+/* Sezione info */
+.info-section-img {
+  flex-basis: 60%;
+}
+.info-section-text {
+  flex-basis: 40%;
 }
